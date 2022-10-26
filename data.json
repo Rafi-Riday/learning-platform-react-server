@@ -1,0 +1,802 @@
+[
+  {
+    "course": "1",
+    "name": "Structured programming language",
+    "parts": [
+      {
+        "part": "1",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Data types",
+                "video": "",
+                "date": "2022-6-4"
+              },
+              {
+                "lesson": "2",
+                "name": "Operators",
+                "video": "",
+                "date": "2022-7-16"
+              },
+              {
+                "lesson": "3",
+                "name": "Expressions",
+                "video": "",
+                "date": "2022-7-16"
+              },
+              {
+                "lesson": "4",
+                "name": "Control structures",
+                "video": "",
+                "date": "2022-7-20"
+              },
+              {
+                "lesson": "5",
+                "name": "Parameter passing conventions",
+                "video": "",
+                "date": "2022-7-20"
+              },
+              {
+                "lesson": "6",
+                "name": "Scope rules & storage classes",
+                "video": "",
+                "date": "2022-7-20"
+              },
+              {
+                "lesson": "7",
+                "name": "Recursion",
+                "video": "",
+                "date": "2022-7-29"
+              }
+            ]
+          },
+          {
+            "week": "2",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Header files",
+                "video": "",
+                "date": "2022-8-2"
+              },
+              {
+                "lesson": "2",
+                "name": "Preprocessor",
+                "video": "",
+                "date": "2022-8-4"
+              },
+              {
+                "lesson": "3",
+                "name": "Pointers & arrays",
+                "video": "",
+                "date": "2022-7-31"
+              },
+              {
+                "lesson": "4",
+                "name": "Strings",
+                "video": "",
+                "date": "2022-7-31"
+              },
+              {
+                "lesson": "5",
+                "name": "Multidimensional array",
+                "video": "",
+                "date": "2022-7-31"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "part": "2",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "User defined data types: structures",
+                "video": "",
+                "date": "2022-6-8"
+              },
+              {
+                "lesson": "2",
+                "name": "Unions",
+                "video": "",
+                "date": "2022-6-8"
+              },
+              {
+                "lesson": "3",
+                "name": "Enumerations",
+                "video": "",
+                "date": "2022-7-24"
+              },
+              {
+                "lesson": "4",
+                "name": "Input & Output: standard input & output",
+                "video": "",
+                "date": "2022-7-24"
+              },
+              {
+                "lesson": "5",
+                "name": "Formatted input & output",
+                "video": "",
+                "date": "2022-8-29"
+              },
+              {
+                "lesson": "6",
+                "name": "File access",
+                "video": "",
+                "date": "2022-6-22"
+              },
+              {
+                "lesson": "7",
+                "name": "Variable length argument list",
+                "video": "",
+                "date": "2022-6-22"
+              }
+            ]
+          },
+          {
+            "week": "2",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Command line parameters",
+                "video": "",
+                "date": "2022-6-22"
+              },
+              {
+                "lesson": "2",
+                "name": "Error Handling",
+                "video": "",
+                "date": "2022-6-22"
+              },
+              {
+                "lesson": "3",
+                "name": "Linking",
+                "video": "",
+                "date": "2022-7-27"
+              },
+              {
+                "lesson": "4",
+                "name": "Library functions",
+                "video": "",
+                "date": "2022-7-29"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": "2",
+    "name": "Object Oriented Programming (OOP)",
+    "parts": [
+      {
+        "part": "1",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Advantages of OOP over structured programming",
+                "video": "",
+                "date": "2022-7-30"
+              },
+              {
+                "lesson": "2",
+                "name": "classes & objects",
+                "video": "",
+                "date": "2022-6-1"
+              },
+              {
+                "lesson": "3",
+                "name": "Access specifiers",
+                "video": "",
+                "date": "2022-6-1"
+              },
+              {
+                "lesson": "4",
+                "name": "Static & non-static members",
+                "video": "",
+                "date": "2022-6-1"
+              },
+              {
+                "lesson": "5",
+                "name": "Encapsulation, Constructors",
+                "video": "",
+                "date": "2022-6-1"
+              },
+              {
+                "lesson": "6",
+                "name": "Destructors & copy constructors",
+                "video": "",
+                "date": "2022-6-2"
+              },
+              {
+                "lesson": "7",
+                "name": "Array of objects",
+                "video": "",
+                "date": "2022-6-15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "part": "2",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Object pointers",
+                "video": "",
+                "date": "2022-6-15"
+              },
+              {
+                "lesson": "2",
+                "name": "Object references",
+                "video": "",
+                "date": "2022-6-15"
+              },
+              {
+                "lesson": "3",
+                "name": "Inheritance: single & multiple inheritance",
+                "video": "",
+                "date": "2022-8-17"
+              },
+              {
+                "lesson": "4",
+                "name": "Polymorphism: overloading",
+                "video": "",
+                "date": "2022-8-17"
+              },
+              {
+                "lesson": "5",
+                "name": "Abstract classes",
+                "video": "",
+                "date": "2022-8-17"
+              },
+              {
+                "lesson": "6",
+                "name": "Virtual functions & overriding",
+                "video": "",
+                "date": "2022-7-13"
+              },
+              {
+                "lesson": "7",
+                "name": "Object Oriented I/O",
+                "video": "",
+                "date": "2022-7-13"
+              }
+            ]
+          },
+          {
+            "week": "2",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Template functions & classes",
+                "video": "",
+                "date": "2022-7-13"
+              },
+              {
+                "lesson": "2",
+                "name": "Multi-threaded Programming",
+                "video": "",
+                "date": "2022-6-13"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": "3",
+    "name": "Data Structures & Algorithms",
+    "parts": [
+      {
+        "part": "1",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Internal data representation",
+                "video": "",
+                "date": "2022-6-13"
+              },
+              {
+                "lesson": "2",
+                "name": "Abstract data types",
+                "video": "",
+                "date": "2022-6-7"
+              },
+              {
+                "lesson": "3",
+                "name": "Arrays",
+                "video": "",
+                "date": "2022-7-26"
+              },
+              {
+                "lesson": "4",
+                "name": "Lists, Stacks",
+                "video": "",
+                "date": "2022-7-27"
+              },
+              {
+                "lesson": "5",
+                "name": "Queues, Trees",
+                "video": "",
+                "date": "2022-8-12"
+              },
+              {
+                "lesson": "6",
+                "name": "Graphs",
+                "video": "",
+                "date": "2022-8-18"
+              },
+              {
+                "lesson": "7",
+                "name": "Heaps",
+                "video": "",
+                "date": "2022-6-21"
+              }
+            ]
+          },
+          {
+            "week": "2",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Fibonacci heaps",
+                "video": "",
+                "date": "2022-6-21"
+              },
+              {
+                "lesson": "2",
+                "name": "B-trees",
+                "video": "",
+                "date": "2022-6-23"
+              },
+              {
+                "lesson": "3",
+                "name": "Recursion",
+                "video": "",
+                "date": "2022-6-25"
+              },
+              {
+                "lesson": "4",
+                "name": "Sorting",
+                "video": "",
+                "date": "2022-6-25"
+              },
+              {
+                "lesson": "5",
+                "name": "Searching",
+                "video": "",
+                "date": "2022-6-28"
+              },
+              {
+                "lesson": "6",
+                "name": "Hashing",
+                "video": "",
+                "date": "2022-6-28"
+              },
+              {
+                "lesson": "7",
+                "name": "Storage management",
+                "video": "",
+                "date": "2022-6-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "part": "2",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "MST algorithms",
+                "video": "",
+                "date": "2022-6-9"
+              },
+              {
+                "lesson": "2",
+                "name": "Shortest path algorithms",
+                "video": "",
+                "date": "2022-8-13"
+              },
+              {
+                "lesson": "3",
+                "name": "Maximum ow & maximum bipartite matching",
+                "video": "",
+                "date": "2022-6-3"
+              },
+              {
+                "lesson": "4",
+                "name": "Lower bound theory",
+                "video": "",
+                "date": "2022-6-3"
+              },
+              {
+                "lesson": "5",
+                "name": "Balanced binary search trees",
+                "video": "",
+                "date": "2022-6-5"
+              },
+              {
+                "lesson": "6",
+                "name": "AVL trees",
+                "video": "",
+                "date": "2022-6-7"
+              },
+              {
+                "lesson": "7",
+                "name": "Red-black trees",
+                "video": "",
+                "date": "2022-6-10"
+              }
+            ]
+          },
+          {
+            "week": "2",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Splay trees",
+                "video": "",
+                "date": "2022-6-10"
+              },
+              {
+                "lesson": "2",
+                "name": "Skip lists",
+                "video": "",
+                "date": "2022-6-10"
+              },
+              {
+                "lesson": "3",
+                "name": "Fibonacci heaps",
+                "video": "",
+                "date": "2022-8-25"
+              },
+              {
+                "lesson": "4",
+                "name": "Binomial heaps",
+                "video": "",
+                "date": "2022-7-3"
+              },
+              {
+                "lesson": "5",
+                "name": "Hashing",
+                "video": "",
+                "date": "2022-7-4"
+              },
+              {
+                "lesson": "6",
+                "name": "NP-completeness",
+                "video": "",
+                "date": "2022-7-8"
+              },
+              {
+                "lesson": "7",
+                "name": "NP-hard & NP-complete problems",
+                "video": "",
+                "date": "2022-7-17"
+              }
+            ]
+          },
+          {
+            "week": "3",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Backtracking",
+                "video": "",
+                "date": "2022-8-21"
+              },
+              {
+                "lesson": "2",
+                "name": "Branch & bound",
+                "video": "",
+                "date": "2022-8-10"
+              },
+              {
+                "lesson": "3",
+                "name": "Approximation algorithms",
+                "video": "",
+                "date": "2022-8-30"
+              },
+              {
+                "lesson": "4",
+                "name": "String matching algorithms",
+                "video": "",
+                "date": "2022-8-30"
+              },
+              {
+                "lesson": "5",
+                "name": "FFT & its applications",
+                "video": "",
+                "date": "2022-8-31"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": "4",
+    "name": "Database",
+    "parts": [
+      {
+        "part": "1",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Concepts of database systems",
+                "video": "",
+                "date": "2022-7-21"
+              },
+              {
+                "lesson": "2",
+                "name": "Data Models: Entity-Relationship model",
+                "video": "",
+                "date": "2022-7-15"
+              },
+              {
+                "lesson": "3",
+                "name": "Data Models:  Relational model",
+                "video": "",
+                "date": "2022-7-15"
+              },
+              {
+                "lesson": "4",
+                "name": "Relational algebra",
+                "video": "",
+                "date": "2022-7-16"
+              },
+              {
+                "lesson": "5",
+                "name": "SQL",
+                "video": "",
+                "date": "2022-6-12"
+              },
+              {
+                "lesson": "6",
+                "name": "Constraints & triggers",
+                "video": "",
+                "date": "2022-6-19"
+              },
+              {
+                "lesson": "7",
+                "name": "Functional dependencies & normalization",
+                "video": "",
+                "date": "2022-6-19"
+              }
+            ]
+          },
+          {
+            "week": "2",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "File organization & data storage",
+                "video": "",
+                "date": "2022-6-21"
+              },
+              {
+                "lesson": "2",
+                "name": "Primary & secondary indexes",
+                "video": "",
+                "date": "2022-8-27"
+              },
+              {
+                "lesson": "3",
+                "name": "B+ trees",
+                "video": "",
+                "date": "Coming Soon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "part": "2",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Hash tables",
+                "video": "",
+                "date": "2022-8-19"
+              },
+              {
+                "lesson": "2",
+                "name": "Query optimization",
+                "video": "",
+                "date": "2022-8-26"
+              },
+              {
+                "lesson": "3",
+                "name": "Transaction management",
+                "video": "",
+                "date": "2022-8-26"
+              },
+              {
+                "lesson": "4",
+                "name": "Recovery",
+                "video": "",
+                "date": "2022-6-11"
+              },
+              {
+                "lesson": "5",
+                "name": "Concurrency control",
+                "video": "",
+                "date": "2022-6-11"
+              },
+              {
+                "lesson": "6",
+                "name": "Access control & security",
+                "video": "",
+                "date": "2022-6-11"
+              },
+              {
+                "lesson": "7",
+                "name": "XML",
+                "video": "",
+                "date": "2022-6-14"
+              }
+            ]
+          },
+          {
+            "week": "2",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "XPath",
+                "video": "",
+                "date": "2022-6-14"
+              },
+              {
+                "lesson": "2",
+                "name": "XQuery",
+                "video": "",
+                "date": "2022-6-14"
+              },
+              {
+                "lesson": "3",
+                "name": "Object oriented & object relational databases",
+                "video": "",
+                "date": "2022-7-5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": "5",
+    "name": "Artificial Intelligence",
+    "parts": [
+      {
+        "part": "1",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Introduction to old & new AI techniques",
+                "video": "",
+                "date": "2022-6-18"
+              },
+              {
+                "lesson": "2",
+                "name": "Search techniques in AI",
+                "video": "",
+                "date": "2022-6-18"
+              },
+              {
+                "lesson": "3",
+                "name": "Constraint satisfaction problems",
+                "video": "",
+                "date": "2022-6-18"
+              },
+              {
+                "lesson": "4",
+                "name": "Game playing",
+                "video": "",
+                "date": "2022-6-20"
+              },
+              {
+                "lesson": "5",
+                "name": "Knowledge representation & reasoning",
+                "video": "",
+                "date": "2022-8-26"
+              },
+              {
+                "lesson": "6",
+                "name": "Propositional & first order logic",
+                "video": "",
+                "date": "2022-8-6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "part": "2",
+        "weeks": [
+          {
+            "week": "1",
+            "lessons": [
+              {
+                "lesson": "1",
+                "name": "Inference in first order logic",
+                "video": "",
+                "date": "2022-8-9"
+              },
+              {
+                "lesson": "2",
+                "name": "Planning",
+                "video": "",
+                "date": "2022-6-6"
+              },
+              {
+                "lesson": "3",
+                "name": "Probabilistic reasoning",
+                "video": "",
+                "date": "2022-6-6"
+              },
+              {
+                "lesson": "4",
+                "name": "Symbolic & non-symbolic representation",
+                "video": "",
+                "date": "2022-8-28"
+              },
+              {
+                "lesson": "5",
+                "name": "Expert systems & knowledge engineering",
+                "video": "",
+                "date": "2022-9-1"
+              },
+              {
+                "lesson": "6",
+                "name": "Natural language processing",
+                "video": "",
+                "date": "2022-6-30"
+              },
+              {
+                "lesson": "7",
+                "name": "Computer vision & image understanding",
+                "video": "",
+                "date": "2022-7-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
