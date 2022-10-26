@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 6969;
 const data = require('./data.json');
+
 app.use(cors());
 
 const statusTrue = JSON.stringify({ status: true, message: 'API running', });
