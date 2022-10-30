@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.get('/course', (req, res) => {
     const response = data.map(d => {
-        return { course: d.course, name: d.name }
+        return { course: d.course, name: d.name, imgURL: d.imgURL }
     });
     res.send(JSON.stringify(response));
 });
@@ -28,7 +28,19 @@ app.get('/course/:COURSE', (req, res) => {
         res.send(statusFalse);
     };
 
+    const stringCourse = JSON.stringify(course);
+    //
+    const totalParts = stringCourse.split('"part"').length - 1;
+    const totalWeeks = stringCourse.split('"week"').length - 1;
+    const totalLessons = stringCourse.split('"lesson"').length - 1;
+    //
+    response.totalParts = totalParts;
+    response.totalWeeks = totalWeeks;
+    response.totalLessons = totalLessons;
+    //
     response.name = course.name;
+    response.imgURL = course.imgURL;
+    response.course = course.course;
     response.parts = course.parts.map(p => p.part);
     res.send(JSON.stringify(response));
 });
@@ -119,4 +131,4 @@ app.get('/course/:COURSE/part/:PART/week/:WEEK/lesson/:LESSON', (req, res) => {
 
 app.listen(port, () => {
     console.log('App running on port', port);
-})
+});
