@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
 });
 
 app.get('/course', (req, res) => {
+    res.send(JSON.stringify(data));
+});
+
+app.get('/course-minified', (req, res) => {
     const response = data.map(d => {
         return { course: d.course, name: d.name, imgURL: d.imgURL }
     });
@@ -31,11 +35,9 @@ app.get('/course/:COURSE', (req, res) => {
     const stringCourse = JSON.stringify(course);
     //
     const totalParts = stringCourse.split('"part"').length - 1;
-    const totalWeeks = stringCourse.split('"week"').length - 1;
     const totalLessons = stringCourse.split('"lesson"').length - 1;
     //
     response.totalParts = totalParts;
-    response.totalWeeks = totalWeeks;
     response.totalLessons = totalLessons;
     //
     response.name = course.name;
@@ -45,84 +47,48 @@ app.get('/course/:COURSE', (req, res) => {
     res.send(JSON.stringify(response));
 });
 
-app.get('/course/:COURSE/part', (req, res) => {
-    const { COURSE } = req.params;
-    const course = data.find(d => d.course.toString() === COURSE.toString());
+// app.get('/course/:COURSE/part', (req, res) => {
+//     const { COURSE } = req.params;
+//     const course = data.find(d => d.course.toString() === COURSE.toString());
 
-    if (!course) {
-        res.send(statusFalse);
-    };
+//     if (!course) {
+//         res.send(statusFalse);
+//     };
 
-    res.send(JSON.stringify(course.parts));
-});
+//     res.send(JSON.stringify(course.parts));
+// });
 
-app.get('/course/:COURSE/part/:PART', (req, res) => {
-    const { COURSE, PART } = req.params;
-    const response = {};
-    const course = data.find(d => d.course.toString() === COURSE.toString());
-    const part = course.parts.find(p => p.part.toString() === PART.toString());
+// app.get('/course/:COURSE/part/:PART', (req, res) => {
+//     const { COURSE, PART } = req.params;
+//     const course = data.find(d => d.course.toString() === COURSE.toString());
+//     const part = course.parts.find(p => p.part.toString() === PART.toString());
 
-    if (!course || !part) {
-        res.send(statusFalse);
-    };
+//     if (!course || !part) {
+//         res.send(statusFalse);
+//     };
 
-    const weeks = part.weeks.map(w => w.week);
-    response.weeks = weeks;
-    res.send(JSON.stringify(response));
-});
+//     res.send(JSON.stringify(part));
+// });
 
-app.get('/course/:COURSE/part/:PART/week', (req, res) => {
-    const { COURSE, PART } = req.params;
-    const course = data.find(d => d.course.toString() === COURSE.toString());
-    const part = course.parts.find(p => p.part.toString() === PART.toString());
+// app.get('/course/:COURSE/part/:PART/lesson', (req, res) => {
+//     const { COURSE, PART } = req.params;
+//     const course = data.find(d => d.course.toString() === COURSE.toString());
+//     const part = course.parts.find(p => p.part.toString() === PART.toString());
 
-    if (!course || !part) {
-        res.send(statusFalse);
-    };
+//     if (!course || !part) {
+//         res.send(statusFalse);
+//     };
 
-    res.send(JSON.stringify(part.weeks));
-});
+//     res.send(JSON.stringify(part.lessons));
+// });
 
-app.get('/course/:COURSE/part/:PART/week/:WEEK', (req, res) => {
-    const { COURSE, PART, WEEK } = req.params;
-    const response = {};
+app.get('/course/:COURSE/part/:PART/lesson/:LESSON', (req, res) => {
+    const { COURSE, PART, LESSON, } = req.params;
     const course = data.find(d => d.course.toString() === COURSE.toString());
     const part = course.parts.find(p => p.part.toString() === PART.toString());
-    const week = part.weeks.find(w => w.week.toString() === WEEK.toString());
+    const lesson = part.lessons.find(l => l.lesson.toString() === LESSON.toString());
 
-    if (!course || !part || !week) {
-        res.send(statusFalse);
-    };
-
-    const lessons = [];
-    week.lessons.forEach(l => {
-        lessons.push({ name: l.name, lesson: l.lesson });
-    });
-    response.lessons = lessons;
-    res.send(JSON.stringify(response));
-});
-
-app.get('/course/:COURSE/part/:PART/week/:WEEK/lesson', (req, res) => {
-    const { COURSE, PART, WEEK } = req.params;
-    const course = data.find(d => d.course.toString() === COURSE.toString());
-    const part = course.parts.find(p => p.part.toString() === PART.toString());
-    const week = part.weeks.find(w => w.week.toString() === WEEK.toString());
-
-    if (!course || !part || !week) {
-        res.send(statusFalse);
-    };
-
-    res.send(JSON.stringify(week.lessons));
-});
-
-app.get('/course/:COURSE/part/:PART/week/:WEEK/lesson/:LESSON', (req, res) => {
-    const { COURSE, PART, WEEK, LESSON } = req.params;
-    const course = data.find(d => d.course.toString() === COURSE.toString());
-    const part = course.parts.find(p => p.part.toString() === PART.toString());
-    const week = part.weeks.find(w => w.week.toString() === WEEK.toString());
-    const lesson = week.lessons.find(l => l.lesson.toString() === LESSON.toString());
-
-    if (!course || !part || !week || !lesson) {
+    if (!course || !part || !lesson) {
         res.send(statusFalse);
     };
 
@@ -130,5 +96,5 @@ app.get('/course/:COURSE/part/:PART/week/:WEEK/lesson/:LESSON', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log('App running on port', port);
+    console.log(`App running on port http://localhost:${port}`);
 });

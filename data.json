@@ -6,169 +6,149 @@
     "parts": [
       {
         "part": "1",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Data types",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-4"
-              },
-              {
-                "lesson": "2",
-                "name": "Operators",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-16"
-              },
-              {
-                "lesson": "3",
-                "name": "Expressions",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-16"
-              },
-              {
-                "lesson": "4",
-                "name": "Control structures",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-20"
-              },
-              {
-                "lesson": "5",
-                "name": "Parameter passing conventions",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-20"
-              },
-              {
-                "lesson": "6",
-                "name": "Scope rules & storage classes",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-20"
-              },
-              {
-                "lesson": "7",
-                "name": "Recursion",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-29"
-              }
-            ]
+            "lesson": "1",
+            "name": "Data types",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-4"
           },
           {
-            "week": "2",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Header files",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-2"
-              },
-              {
-                "lesson": "2",
-                "name": "Preprocessor",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-4"
-              },
-              {
-                "lesson": "3",
-                "name": "Pointers & arrays",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-31"
-              },
-              {
-                "lesson": "4",
-                "name": "Strings",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-31"
-              },
-              {
-                "lesson": "5",
-                "name": "Multidimensional array",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-31"
-              }
-            ]
+            "lesson": "2",
+            "name": "Operators",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-16"
+          },
+          {
+            "lesson": "3",
+            "name": "Expressions",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-16"
+          },
+          {
+            "lesson": "4",
+            "name": "Control structures",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-20"
+          },
+          {
+            "lesson": "5",
+            "name": "Parameter passing conventions",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-20"
+          },
+          {
+            "lesson": "6",
+            "name": "Scope rules & storage classes",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-20"
+          },
+          {
+            "lesson": "7",
+            "name": "Recursion",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-29"
+          },
+          {
+            "lesson": "8",
+            "name": "Header files",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-2"
+          },
+          {
+            "lesson": "9",
+            "name": "Preprocessor",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-4"
+          },
+          {
+            "lesson": "10",
+            "name": "Pointers & arrays",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-31"
+          },
+          {
+            "lesson": "11",
+            "name": "Strings",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-31"
+          },
+          {
+            "lesson": "12",
+            "name": "Multidimensional array",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-31"
           }
         ]
       },
       {
         "part": "2",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "User defined data types: structures",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-8"
-              },
-              {
-                "lesson": "2",
-                "name": "Unions",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-8"
-              },
-              {
-                "lesson": "3",
-                "name": "Enumerations",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-24"
-              },
-              {
-                "lesson": "4",
-                "name": "Standard input & output",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-24"
-              },
-              {
-                "lesson": "5",
-                "name": "Formatted input & output",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-29"
-              },
-              {
-                "lesson": "6",
-                "name": "File access",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-22"
-              },
-              {
-                "lesson": "7",
-                "name": "Variable length argument list",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-22"
-              }
-            ]
+            "lesson": "1",
+            "name": "User defined data types: structures",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-8"
           },
           {
-            "week": "2",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Command line parameters",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-22"
-              },
-              {
-                "lesson": "2",
-                "name": "Error Handling",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-22"
-              },
-              {
-                "lesson": "3",
-                "name": "Linking",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-27"
-              },
-              {
-                "lesson": "4",
-                "name": "Library functions",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-29"
-              }
-            ]
+            "lesson": "2",
+            "name": "Unions",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-8"
+          },
+          {
+            "lesson": "3",
+            "name": "Enumerations",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-24"
+          },
+          {
+            "lesson": "4",
+            "name": "Standard input & output",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-24"
+          },
+          {
+            "lesson": "5",
+            "name": "Formatted input & output",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-29"
+          },
+          {
+            "lesson": "6",
+            "name": "File access",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-22"
+          },
+          {
+            "lesson": "7",
+            "name": "Variable length argument list",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-22"
+          },
+          {
+            "lesson": "8",
+            "name": "Command line parameters",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-22"
+          },
+          {
+            "lesson": "9",
+            "name": "Error Handling",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-22"
+          },
+          {
+            "lesson": "10",
+            "name": "Linking",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-27"
+          },
+          {
+            "lesson": "11",
+            "name": "Library functions",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-29"
           }
         ]
       }
@@ -181,122 +161,107 @@
     "parts": [
       {
         "part": "1",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Advantages of OOP over structured programming",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-30"
-              },
-              {
-                "lesson": "2",
-                "name": "classes & objects",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-1"
-              },
-              {
-                "lesson": "3",
-                "name": "Access specifiers",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-1"
-              },
-              {
-                "lesson": "4",
-                "name": "Static & non-static members",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-1"
-              },
-              {
-                "lesson": "5",
-                "name": "Encapsulation, Constructors",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-1"
-              },
-              {
-                "lesson": "6",
-                "name": "Destructors & copy constructors",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-2"
-              },
-              {
-                "lesson": "7",
-                "name": "Array of objects",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-15"
-              }
-            ]
+            "lesson": "1",
+            "name": "Advantages of OOP over structured programming",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-30"
+          },
+          {
+            "lesson": "2",
+            "name": "classes & objects",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-1"
+          },
+          {
+            "lesson": "3",
+            "name": "Access specifiers",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-1"
+          },
+          {
+            "lesson": "4",
+            "name": "Static & non-static members",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-1"
+          },
+          {
+            "lesson": "5",
+            "name": "Encapsulation, Constructors",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-1"
+          },
+          {
+            "lesson": "6",
+            "name": "Destructors & copy constructors",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-2"
+          },
+          {
+            "lesson": "7",
+            "name": "Array of objects",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-15"
           }
         ]
       },
       {
         "part": "2",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Object pointers",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-15"
-              },
-              {
-                "lesson": "2",
-                "name": "Object references",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-15"
-              },
-              {
-                "lesson": "3",
-                "name": "Single & multiple inheritance",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-17"
-              },
-              {
-                "lesson": "4",
-                "name": "Polymorphism: overloading",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-17"
-              },
-              {
-                "lesson": "5",
-                "name": "Abstract classes",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-17"
-              },
-              {
-                "lesson": "6",
-                "name": "Virtual functions & overriding",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-13"
-              },
-              {
-                "lesson": "7",
-                "name": "Object Oriented I/O",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-13"
-              }
-            ]
+            "lesson": "1",
+            "name": "Object pointers",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-15"
           },
           {
-            "week": "2",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Template functions & classes",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-13"
-              },
-              {
-                "lesson": "2",
-                "name": "Multi-threaded Programming",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-13"
-              }
-            ]
+            "lesson": "2",
+            "name": "Object references",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-15"
+          },
+          {
+            "lesson": "3",
+            "name": "Single & multiple inheritance",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-17"
+          },
+          {
+            "lesson": "4",
+            "name": "Polymorphism: overloading",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-17"
+          },
+          {
+            "lesson": "5",
+            "name": "Abstract classes",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-17"
+          },
+          {
+            "lesson": "6",
+            "name": "Virtual functions & overriding",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-13"
+          },
+          {
+            "lesson": "7",
+            "name": "Object Oriented I/O",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-13"
+          },
+          {
+            "lesson": "8",
+            "name": "Template functions & classes",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-13"
+          },
+          {
+            "lesson": "9",
+            "name": "Multi-threaded Programming",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-13"
           }
         ]
       }
@@ -309,234 +274,209 @@
     "parts": [
       {
         "part": "1",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Internal data representation",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-13"
-              },
-              {
-                "lesson": "2",
-                "name": "Abstract data types",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-7"
-              },
-              {
-                "lesson": "3",
-                "name": "Arrays",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-26"
-              },
-              {
-                "lesson": "4",
-                "name": "Lists, Stacks",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-27"
-              },
-              {
-                "lesson": "5",
-                "name": "Queues, Trees",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-12"
-              },
-              {
-                "lesson": "6",
-                "name": "Graphs",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-18"
-              },
-              {
-                "lesson": "7",
-                "name": "Heaps",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-21"
-              }
-            ]
+            "lesson": "1",
+            "name": "Internal data representation",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-13"
           },
           {
-            "week": "2",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Fibonacci heaps",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-21"
-              },
-              {
-                "lesson": "2",
-                "name": "B-trees",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-23"
-              },
-              {
-                "lesson": "3",
-                "name": "Recursion",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-25"
-              },
-              {
-                "lesson": "4",
-                "name": "Sorting",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-25"
-              },
-              {
-                "lesson": "5",
-                "name": "Searching",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-28"
-              },
-              {
-                "lesson": "6",
-                "name": "Hashing",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-28"
-              },
-              {
-                "lesson": "7",
-                "name": "Storage management",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-2"
-              }
-            ]
+            "lesson": "2",
+            "name": "Abstract data types",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-7"
+          },
+          {
+            "lesson": "3",
+            "name": "Arrays",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-26"
+          },
+          {
+            "lesson": "4",
+            "name": "Lists, Stacks",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-27"
+          },
+          {
+            "lesson": "5",
+            "name": "Queues, Trees",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-12"
+          },
+          {
+            "lesson": "6",
+            "name": "Graphs",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-18"
+          },
+          {
+            "lesson": "7",
+            "name": "Heaps",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-21"
+          },
+          {
+            "lesson": "8",
+            "name": "Fibonacci heaps",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-21"
+          },
+          {
+            "lesson": "9",
+            "name": "B-trees",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-23"
+          },
+          {
+            "lesson": "10",
+            "name": "Recursion",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-25"
+          },
+          {
+            "lesson": "11",
+            "name": "Sorting",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-25"
+          },
+          {
+            "lesson": "12",
+            "name": "Searching",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-28"
+          },
+          {
+            "lesson": "13",
+            "name": "Hashing",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-28"
+          },
+          {
+            "lesson": "14",
+            "name": "Storage management",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-2"
           }
         ]
       },
       {
         "part": "2",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "MST algorithms",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-9"
-              },
-              {
-                "lesson": "2",
-                "name": "Shortest path algorithms",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-13"
-              },
-              {
-                "lesson": "3",
-                "name": "Maximum ow & maximum bipartite matching",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-3"
-              },
-              {
-                "lesson": "4",
-                "name": "Lower bound theory",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-3"
-              },
-              {
-                "lesson": "5",
-                "name": "Balanced binary search trees",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-5"
-              },
-              {
-                "lesson": "6",
-                "name": "AVL trees",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-7"
-              },
-              {
-                "lesson": "7",
-                "name": "Red-black trees",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-10"
-              }
-            ]
+            "lesson": "1",
+            "name": "MST algorithms",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-9"
           },
           {
-            "week": "2",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Splay trees",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-10"
-              },
-              {
-                "lesson": "2",
-                "name": "Skip lists",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-10"
-              },
-              {
-                "lesson": "3",
-                "name": "Fibonacci heaps",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-25"
-              },
-              {
-                "lesson": "4",
-                "name": "Binomial heaps",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-3"
-              },
-              {
-                "lesson": "5",
-                "name": "Hashing",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-4"
-              },
-              {
-                "lesson": "6",
-                "name": "NP-completeness",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-8"
-              },
-              {
-                "lesson": "7",
-                "name": "NP-hard & NP-complete problems",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-17"
-              }
-            ]
+            "lesson": "2",
+            "name": "Shortest path algorithms",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-13"
           },
           {
-            "week": "3",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Backtracking",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-21"
-              },
-              {
-                "lesson": "2",
-                "name": "Branch & bound",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-10"
-              },
-              {
-                "lesson": "3",
-                "name": "Approximation algorithms",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-30"
-              },
-              {
-                "lesson": "4",
-                "name": "String matching algorithms",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-30"
-              },
-              {
-                "lesson": "5",
-                "name": "FFT & its applications",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-31"
-              }
-            ]
+            "lesson": "3",
+            "name": "Maximum ow & maximum bipartite matching",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-3"
+          },
+          {
+            "lesson": "4",
+            "name": "Lower bound theory",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-3"
+          },
+          {
+            "lesson": "5",
+            "name": "Balanced binary search trees",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-5"
+          },
+          {
+            "lesson": "6",
+            "name": "AVL trees",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-7"
+          },
+          {
+            "lesson": "7",
+            "name": "Red-black trees",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-10"
+          },
+          {
+            "lesson": "8",
+            "name": "Splay trees",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-10"
+          },
+          {
+            "lesson": "9",
+            "name": "Skip lists",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-10"
+          },
+          {
+            "lesson": "10",
+            "name": "Fibonacci heaps",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-25"
+          },
+          {
+            "lesson": "11",
+            "name": "Binomial heaps",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-3"
+          },
+          {
+            "lesson": "12",
+            "name": "Hashing",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-4"
+          },
+          {
+            "lesson": "13",
+            "name": "NP-completeness",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-8"
+          },
+          {
+            "lesson": "14",
+            "name": "NP-hard & NP-complete problems",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-17"
+          },
+          {
+            "lesson": "15",
+            "name": "Backtracking",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-21"
+          },
+          {
+            "lesson": "16",
+            "name": "Branch & bound",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-10"
+          },
+          {
+            "lesson": "17",
+            "name": "Approximation algorithms",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-30"
+          },
+          {
+            "lesson": "18",
+            "name": "String matching algorithms",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-30"
+          },
+          {
+            "lesson": "19",
+            "name": "FFT & its applications",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-31"
           }
         ]
       }
@@ -549,151 +489,131 @@
     "parts": [
       {
         "part": "1",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Concepts of database systems",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-21"
-              },
-              {
-                "lesson": "2",
-                "name": "Entity-Relationship model",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-15"
-              },
-              {
-                "lesson": "3",
-                "name": "Relational model",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-15"
-              },
-              {
-                "lesson": "4",
-                "name": "Relational algebra",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-16"
-              },
-              {
-                "lesson": "5",
-                "name": "SQL",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-12"
-              },
-              {
-                "lesson": "6",
-                "name": "Constraints & triggers",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-19"
-              },
-              {
-                "lesson": "7",
-                "name": "Functional dependencies & normalization",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-19"
-              }
-            ]
+            "lesson": "1",
+            "name": "Concepts of database systems",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-21"
           },
           {
-            "week": "2",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "File organization & data storage",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-21"
-              },
-              {
-                "lesson": "2",
-                "name": "Primary & secondary indexes",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-27"
-              },
-              {
-                "lesson": "3",
-                "name": "B+ trees",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "Coming Soon"
-              }
-            ]
+            "lesson": "2",
+            "name": "Entity-Relationship model",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-15"
+          },
+          {
+            "lesson": "3",
+            "name": "Relational model",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-15"
+          },
+          {
+            "lesson": "4",
+            "name": "Relational algebra",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-16"
+          },
+          {
+            "lesson": "5",
+            "name": "SQL",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-12"
+          },
+          {
+            "lesson": "6",
+            "name": "Constraints & triggers",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-19"
+          },
+          {
+            "lesson": "7",
+            "name": "Functional dependencies & normalization",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-19"
+          },
+          {
+            "lesson": "8",
+            "name": "File organization & data storage",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-21"
+          },
+          {
+            "lesson": "9",
+            "name": "Primary & secondary indexes",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-27"
+          },
+          {
+            "lesson": "10",
+            "name": "B+ trees",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "Coming Soon"
           }
         ]
       },
       {
         "part": "2",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Hash tables",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-19"
-              },
-              {
-                "lesson": "2",
-                "name": "Query optimization",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-26"
-              },
-              {
-                "lesson": "3",
-                "name": "Transaction management",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-26"
-              },
-              {
-                "lesson": "4",
-                "name": "Recovery",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-11"
-              },
-              {
-                "lesson": "5",
-                "name": "Concurrency control",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-11"
-              },
-              {
-                "lesson": "6",
-                "name": "Access control & security",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-11"
-              },
-              {
-                "lesson": "7",
-                "name": "XML",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-14"
-              }
-            ]
+            "lesson": "1",
+            "name": "Hash tables",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-19"
           },
           {
-            "week": "2",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "XPath",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-14"
-              },
-              {
-                "lesson": "2",
-                "name": "XQuery",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-14"
-              },
-              {
-                "lesson": "3",
-                "name": "Object oriented & object relational databases",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-5"
-              }
-            ]
+            "lesson": "2",
+            "name": "Query optimization",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-26"
+          },
+          {
+            "lesson": "3",
+            "name": "Transaction management",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-26"
+          },
+          {
+            "lesson": "4",
+            "name": "Recovery",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-11"
+          },
+          {
+            "lesson": "5",
+            "name": "Concurrency control",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-11"
+          },
+          {
+            "lesson": "6",
+            "name": "Access control & security",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-11"
+          },
+          {
+            "lesson": "7",
+            "name": "XML",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-14"
+          },
+          {
+            "lesson": "8",
+            "name": "XPath",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-14"
+          },
+          {
+            "lesson": "9",
+            "name": "XQuery",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-14"
+          },
+          {
+            "lesson": "10",
+            "name": "Object oriented & object relational databases",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-5"
           }
         ]
       }
@@ -706,99 +626,89 @@
     "parts": [
       {
         "part": "1",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Introduction to old & new AI techniques",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-18"
-              },
-              {
-                "lesson": "2",
-                "name": "Search techniques in AI",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-18"
-              },
-              {
-                "lesson": "3",
-                "name": "Constraint satisfaction problems",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-18"
-              },
-              {
-                "lesson": "4",
-                "name": "Game playing",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-20"
-              },
-              {
-                "lesson": "5",
-                "name": "Knowledge representation & reasoning",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-26"
-              },
-              {
-                "lesson": "6",
-                "name": "Propositional & first order logic",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-6"
-              }
-            ]
+            "lesson": "1",
+            "name": "Introduction to old & new AI techniques",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-18"
+          },
+          {
+            "lesson": "2",
+            "name": "Search techniques in AI",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-18"
+          },
+          {
+            "lesson": "3",
+            "name": "Constraint satisfaction problems",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-18"
+          },
+          {
+            "lesson": "4",
+            "name": "Game playing",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-20"
+          },
+          {
+            "lesson": "5",
+            "name": "Knowledge representation & reasoning",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-26"
+          },
+          {
+            "lesson": "6",
+            "name": "Propositional & first order logic",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-6"
           }
         ]
       },
       {
         "part": "2",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Inference in first order logic",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-9"
-              },
-              {
-                "lesson": "2",
-                "name": "Planning",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-6"
-              },
-              {
-                "lesson": "3",
-                "name": "Probabilistic reasoning",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-6"
-              },
-              {
-                "lesson": "4",
-                "name": "Symbolic & non-symbolic representation",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-28"
-              },
-              {
-                "lesson": "5",
-                "name": "Expert systems & knowledge engineering",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-1"
-              },
-              {
-                "lesson": "6",
-                "name": "Natural language processing",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-6-30"
-              },
-              {
-                "lesson": "7",
-                "name": "Computer vision & image understanding",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-3"
-              }
-            ]
+            "lesson": "1",
+            "name": "Inference in first order logic",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-9"
+          },
+          {
+            "lesson": "2",
+            "name": "Planning",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-6"
+          },
+          {
+            "lesson": "3",
+            "name": "Probabilistic reasoning",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-6"
+          },
+          {
+            "lesson": "4",
+            "name": "Symbolic & non-symbolic representation",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-28"
+          },
+          {
+            "lesson": "5",
+            "name": "Expert systems & knowledge engineering",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-1"
+          },
+          {
+            "lesson": "6",
+            "name": "Natural language processing",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-6-30"
+          },
+          {
+            "lesson": "7",
+            "name": "Computer vision & image understanding",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-3"
           }
         ]
       }
@@ -811,140 +721,125 @@
     "parts": [
       {
         "part": "1",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "System analysis fundamentals",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-18"
-              },
-              {
-                "lesson": "2",
-                "name": "Development methodologies",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-18"
-              },
-              {
-                "lesson": "3",
-                "name": "Modeling organizational system",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-18"
-              },
-              {
-                "lesson": "4",
-                "name": "Project management",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-7-20"
-              },
-              {
-                "lesson": "5",
-                "name": "Interactive methods",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-26"
-              },
-              {
-                "lesson": "6",
-                "name": "Unobtrusive methods",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-6"
-              },
-              {
-                "lesson": "7",
-                "name": "Agile modeling & prototyping",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-6"
-              }
-            ]
+            "lesson": "1",
+            "name": "System analysis fundamentals",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-18"
+          },
+          {
+            "lesson": "2",
+            "name": "Development methodologies",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-18"
+          },
+          {
+            "lesson": "3",
+            "name": "Modeling organizational system",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-18"
+          },
+          {
+            "lesson": "4",
+            "name": "Project management",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-7-20"
+          },
+          {
+            "lesson": "5",
+            "name": "Interactive methods",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-26"
+          },
+          {
+            "lesson": "6",
+            "name": "Unobtrusive methods",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-6"
+          },
+          {
+            "lesson": "7",
+            "name": "Agile modeling & prototyping",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-6"
           }
         ]
       },
       {
         "part": "2",
-        "weeks": [
+        "lessons": [
           {
-            "week": "1",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Using data flow diagrams",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-9"
-              },
-              {
-                "lesson": "2",
-                "name": "Data dictionaries",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-6"
-              },
-              {
-                "lesson": "3",
-                "name": "Process specifications",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-6"
-              },
-              {
-                "lesson": "4",
-                "name": "Structured decisions",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-28"
-              },
-              {
-                "lesson": "5",
-                "name": "Object oriented systems analysis",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-1"
-              },
-              {
-                "lesson": "6",
-                "name": "Design using UML",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-30"
-              },
-              {
-                "lesson": "7",
-                "name": "Designing effective output",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-3"
-              }
-            ]
+            "lesson": "1",
+            "name": "Using data flow diagrams",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-9"
           },
           {
-            "week": "2",
-            "lessons": [
-              {
-                "lesson": "1",
-                "name": "Designing effective input",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-8-9"
-              },
-              {
-                "lesson": "2",
-                "name": "Designing databases",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-6"
-              },
-              {
-                "lesson": "3",
-                "name": "Human-computer interaction",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-6"
-              },
-              {
-                "lesson": "4",
-                "name": "Designing accurate data entry procedures",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-6"
-              },
-              {
-                "lesson": "5",
-                "name": "Quality assurance & implementation",
-                "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
-                "date": "2022-9-6"
-              }
-            ]
+            "lesson": "2",
+            "name": "Data dictionaries",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-6"
+          },
+          {
+            "lesson": "3",
+            "name": "Process specifications",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-6"
+          },
+          {
+            "lesson": "4",
+            "name": "Structured decisions",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-28"
+          },
+          {
+            "lesson": "5",
+            "name": "Object oriented systems analysis",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-1"
+          },
+          {
+            "lesson": "6",
+            "name": "Design using UML",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-30"
+          },
+          {
+            "lesson": "7",
+            "name": "Designing effective output",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-3"
+          },
+          {
+            "lesson": "8",
+            "name": "Designing effective input",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-8-9"
+          },
+          {
+            "lesson": "9",
+            "name": "Designing databases",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-6"
+          },
+          {
+            "lesson": "10",
+            "name": "Human-computer interaction",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-6"
+          },
+          {
+            "lesson": "11",
+            "name": "Designing accurate data entry procedures",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-6"
+          },
+          {
+            "lesson": "12",
+            "name": "Quality assurance & implementation",
+            "video": "https://learning-platform-client-c722d.web.app/media/demo.mp4",
+            "date": "2022-9-6"
           }
         ]
       }
