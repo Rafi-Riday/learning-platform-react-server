@@ -47,41 +47,6 @@ app.get('/course/:COURSE', (req, res) => {
     res.send(JSON.stringify(response));
 });
 
-// app.get('/course/:COURSE/part', (req, res) => {
-//     const { COURSE } = req.params;
-//     const course = data.find(d => d.course.toString() === COURSE.toString());
-
-//     if (!course) {
-//         res.send(statusFalse);
-//     };
-
-//     res.send(JSON.stringify(course.parts));
-// });
-
-// app.get('/course/:COURSE/part/:PART', (req, res) => {
-//     const { COURSE, PART } = req.params;
-//     const course = data.find(d => d.course.toString() === COURSE.toString());
-//     const part = course.parts.find(p => p.part.toString() === PART.toString());
-
-//     if (!course || !part) {
-//         res.send(statusFalse);
-//     };
-
-//     res.send(JSON.stringify(part));
-// });
-
-// app.get('/course/:COURSE/part/:PART/lesson', (req, res) => {
-//     const { COURSE, PART } = req.params;
-//     const course = data.find(d => d.course.toString() === COURSE.toString());
-//     const part = course.parts.find(p => p.part.toString() === PART.toString());
-
-//     if (!course || !part) {
-//         res.send(statusFalse);
-//     };
-
-//     res.send(JSON.stringify(part.lessons));
-// });
-
 app.get('/course/:COURSE/part/:PART/lesson/:LESSON', (req, res) => {
     const { COURSE, PART, LESSON, } = req.params;
     const course = data.find(d => d.course.toString() === COURSE.toString());
